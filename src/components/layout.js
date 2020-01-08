@@ -19,17 +19,36 @@ const Layout = ({ children }) => {
       <Header siteTitle='YEKWON PARK' />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
+          
         }}
       >
         <main>{children}</main>
-        <footer>
-          © Yekwon Park
-        </footer>
       </div>
+
+      <footer
+          style={{
+            background: `#2c2e2d`,
+            //position: `absolute`,
+            right: `0`,
+            left: `0`,
+            bottom: `0`,
+            width: `100%`,
+            height: `2.5rem`,
+           }} 
+       >
+          <div
+            style={{
+              padding: `0.5rem`,
+              textAlign: `center`,
+              fontFamily: `Montserrat`,
+              fontSize: `8pt`,
+              color: `#e4e9ec`,
+            }}
+          > 
+            © 2019 Yekwon Park
+          </div>
+      </footer>
+
     </>
   )
 }
