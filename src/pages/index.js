@@ -20,19 +20,21 @@ const IndexPage = () => (
 
         <img src={Macbook} alt="Macbook image" id="macbook" />
 
-        Growing Developer 
-       </div>
+        <div id="developer-text">Growing Developer</div>
+      </div>
+
       <div className="musician"> 
 
         <img src={Headphone} alt="Headphone image" id="headphone" />
 
-        Aspiring Musician 
+        <div id="musician-text">Aspiring Musician </div>
        </div>
+
       <div className="fan"> 
 
         <img src={Jersey} alt="Jersey image" id="jersey" />
 
-        Avid Fan 
+        <div id="fan-text">Avid Fan </div>
       </div>
     </div>
 

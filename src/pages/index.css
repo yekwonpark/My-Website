@@ -12,6 +12,7 @@
 }
 
 #macbook {
+	max-width: 40%;
 }
 
 .musician {
@@ -22,17 +23,18 @@
 }
 
 #headphone {
-	
+	max-width: 30%;
 }
 
 .fan {
 	display: inline-block;
-	width: auto;
+	width: 33%;
 	height: 100%;
 	text-align: center;
 }
 
 #jersey {
+	max-width: 30%;
 }
 
 .about {
